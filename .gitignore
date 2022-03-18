@@ -1,0 +1,62 @@
+!.gitignore
+main*dev.unity*
+blender_states.*
+test.unity*
+sandbox/
+sandbox U5/
+kingdom U4 backup/
+PlaygroundCache/
+Logs/
+FlipbookGames*
+platforms/steam/steam_staging
+platforms/steam/steamconfig.sh
+build/
+Builds/
+SwitchIL2CPPCache/
+SwitchIL2CPPStats/
+
+# Switch #
+*.a
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.sln.hide
+*.user
+*.unityproj
+*.booproj
+.vs
+.vsconfig
+
+.settings/
+
+# === Rider/IDEA === #
+*.iml
+.idea/
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+UserSettings/EditorUserSettings.asset

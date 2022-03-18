@@ -2,8 +2,9 @@ using Assets.Scripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Planet : MonoBehaviour
+public class Planet : MonoBehaviour, IPointerClickHandler
 {
     public Transform point;
     public float Speed = 5;
@@ -54,5 +55,10 @@ public class Planet : MonoBehaviour
     public static Vector3 RotatePointAroundPivot(Vector3 point, Vector3 pivot, Quaternion angle)
     {
         return angle * (point - pivot) + pivot;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        Debug.Log("ON click");
     }
 }
